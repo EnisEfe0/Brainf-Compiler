@@ -5,7 +5,7 @@ internal class Brainf
     public int index { get; set; }
     private int bracket;
 
-    public const int maxSize = 3;
+    public const int maxSize = 30000;
     public Brainf()
     {
         this.array = new int[maxSize];
